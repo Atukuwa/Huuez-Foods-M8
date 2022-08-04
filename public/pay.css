@@ -1,0 +1,163 @@
+@font-face{
+    font-family: gilroy;
+    src: url(/imge&video/Radomir\ Tinkov\ -\ Gilroy-Light.otf)
+}
+div{
+    font-family: gilroy;
+}
+.check{
+    margin-left: 6%;
+}
+#navbarTogglerDemo03 > ul > li:nth-child(1) > a:hover{
+    color: #77970c;
+}
+#navbarTogglerDemo03 > ul > li:nth-child(2) > a:hover{
+    color: #77970c;
+}
+#navbarTogglerDemo03 > ul > li:nth-child(3) > a:hover{
+    color: #77970c;
+}
+.pay{
+    margin-left: 6%;
+    font-size: 20px;
+}
+.pay-icons{
+    max-width: 600px;
+    margin: 5% 10%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+}
+.pay-icons > div:nth-child(1){
+    padding-top: 35px;
+}
+.img{
+    width: 100%;
+}
+div.pay-icons > div:nth-child(1) > p > a{
+    text-decoration: none;
+    color: black;
+    padding: 30px 10px;
+}
+div.pay-icons > div:nth-child(2) > p > a{
+    text-decoration: none;
+    color: #77970c;
+    padding: 30px 10px;
+}
+div.pay-icons > div:nth-child(3) > p > a{
+    text-decoration: none;
+    color: darkorange;
+    padding: 30px 10px;
+}
+.ship{
+    height: 200px;
+}
+.last-name{
+    margin-top: -10%;
+}
+.number{
+    margin-top: -10%;
+}
+.email{
+    position: absolute;
+    left: 7%;
+    margin-top: 25%;
+}
+.grid-contianer1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1090px;
+    margin: 20px auto;
+}
+.names{
+    display: block;
+}
+.state{
+    display: block;
+}
+#formGroupExampleInput1{
+    height: 125px;
+}
+.proceed{
+    background-image: url(/imge&video/Group\ 43.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    padding: 10px;
+    padding-right: -10px
+}
+.line{
+    background-color: black;
+    height: 1px;
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+button{
+    background-image: url(/imge&video/Group\ 21.svg);
+    background-repeat: no-repeat;
+    border: none;
+    background-size: contain;
+    padding: 12px;
+    padding-top: 7px;
+    
+}
+.grid-container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 400px;
+    border-left: 1px solid #77970c;
+}
+.grid-container1 img{
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+    padding: 15px;
+    justify-self: start;
+    border-right: 1px solid #77970c;
+    padding-left: 20px;
+}
+.icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-height: 50px;
+    margin-top: 50px;
+    
+}
+.tw{
+    background-image: url(/imge&video/Vector.png);
+    background-repeat: no-repeat;
+    text-indent: -1000px;
+    width: 100%;
+    justify-self: center;
+    
+}
+.ig{
+    background-image: url(/imge&video/Vector\ \(1\).png);
+    background-repeat: no-repeat;
+    text-indent: -1000px;
+    
+}
+@media screen and (max-width: 640px){
+   
+    .grid-contianer1{
+        display: block;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .pay-icons{
+        max-width: 300px;
+        margin: 5% 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 480px){
+    .pay-icons{
+      display: block;
+      max-width: 200px;
+      margin: 0 auto;
+    }
+}
